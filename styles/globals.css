@@ -1,0 +1,206 @@
+html,
+body {
+  min-height: 100%;
+}
+#__next {
+  height: 100%;
+}
+.layout-page-content .check {
+  background: url('/images/background.png');
+  background-size: 100% 100%;
+  position: fixed;
+  background-repeat: no-repeat;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  opacity: 0.4;
+}
+.underline-code {
+  cursor: pointer;
+}
+.my-image123 {
+  z-index: 1900 !important;
+}
+
+.underline-code:hover {
+  color: rgb(0, 123, 255) !important;
+}
+.muilink_id {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+.upload-image {
+  cursor: pointer;
+}
+.my-property-drawer {
+  z-index: 1800 !important;
+}
+.my-property-drawer .MuiBox-root:nth-child(1) {
+  width: 30%;
+}
+.my-property-drawer .MuiBox-root:nth-child(2) {
+  width: 70%;
+}
+.my-property-drawer .fullWidth .MuiBox-root:nth-child(1) {
+  width: auto;
+}
+.my-property-drawer .fullWidth .MuiBox-root:nth-child(2) {
+  width: auto;
+}
+.my-property-drawer .MuiBox-root:nth-child(1) p {
+  font-weight: bold;
+}
+.my-property-drawer .grid .MuiBox-root {
+  width: auto;
+  paddingleft: 1.25rem;
+  paddingright: 0.75rem;
+  marginbottom: 0.5rem;
+}
+code {
+  font-family: 'Inter', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  padding: 0.1rem 0.4rem;
+  font-size: 90%;
+  color: #d400ff;
+  border-radius: 0.1335rem;
+}
+code:not([class*='language-']):before,
+code:not([class*='language-']):after {
+  content: '`';
+}
+code[class*='language-'] {
+  padding: 0;
+}
+.my-slider {
+  display: flex;
+  align-items: center;
+}
+.my-image {
+  position: relative;
+  padding: 15px;
+  padding-top: 0;
+}
+.my-image button {
+  position: absolute;
+  top: -5px;
+  right: 6px;
+  z-index: 1000;
+  border: 1px solid;
+  padding: 0;
+}
+.my-image img {
+  width: 100px;
+  height: 70px;
+  padding: 0.1875rem;
+  border-radius: 10px;
+  border: 1px solid rgba(93, 89, 98, 0.14);
+  object-fit: cover;
+}
+.my-image video {
+  width: 100px;
+  height: 70px;
+  padding: 0.1875rem;
+  border-radius: 10px;
+  border: 1px solid rgba(93, 89, 98, 0.14);
+  object-fit: cover;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+.MuiInputLabel-asterisk {
+  color: #db3131;
+}
+@media (max-width: 767px) {
+  .my-slider {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+.my-faq-drawer .MuiDrawer-paper {
+  width: 50%;
+}
+
+.my-property-drawer .MuiDrawer-paper {
+  width: 40%;
+}
+
+@media screen and (min-width: 260px) and (max-width: 700px) {
+  .my-faq-drawer .MuiDrawer-paper {
+    width: 100%;
+  }
+  .my-property-drawer .MuiDrawer-paper {
+    width: 100%;
+    overflow-x: clip;
+  }
+  .my-property-drawer .MuiBox-root:nth-child(1) {
+    min-width: 100%;
+  }
+  .my-property-drawer .MuiBox-root:nth-child(2) {
+    min-width: 100%;
+  }
+  .my-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 961px) {
+  .my-faq-drawer .MuiDrawer-paper {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 962px) and (max-width: 1023px) {
+  .my-faq-drawer .MuiDrawer-paper {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .my-faq-drawer .MuiDrawer-paper {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .my-faq-drawer .MuiDrawer-paper {
+    width: 40%;
+  }
+}
+
+.search_box {
+  box-sizing: border-box;
+  margin: 0;
+  font-variant: tabular-nums;
+  list-style: none;
+  font-feature-settings: 'tnum', 'tnum';
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  padding: 4px 11px;
+  color: #595c97;
+  font-size: 14px;
+  line-height: 1.5715;
+  background-color: #fff;
+  background-image: none;
+  border: 2px solid #dee1e6;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.auto_complete {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

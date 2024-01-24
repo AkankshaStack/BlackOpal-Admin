@@ -1,0 +1,15 @@
+export enum ERoutes {
+  CLOSED_LEADS='/lead-management/close-leads',
+  BULK_UPLOAD='/bulk-listing',
+  VIEW_DETAILS='/lead-management/details/[:id]',
+  BUYING_GUIDE='/buying-guide',
+  SINGLE_BUYING_GUIDE='/buying-guide/:id',
+  ADD_BUYING_GUIDE='/buying-guide/new',
+  COLLECTION='/collections',
+  EDIT_PROPERTY='/project/edit/:id',
+  PAYMENTS='/all-payments',
+  CUSTOMER = '/customer',
+  REFUND_REQUESTS='/refund-requests',
+  RATING='/project-rating/:id',
+  NOTIFICATION='/notifications',
+}
